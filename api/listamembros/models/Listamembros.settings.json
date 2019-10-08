@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "listamembros",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "membro": {
+      "model": "torcedor"
+    },
+    "grupo": {
+      "model": "grupo"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/listamembros",
+      "handler": "Listamembros.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/listamembros/count",
+      "handler": "Listamembros.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/listamembros/:_id",
+      "handler": "Listamembros.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/listamembros",
+      "handler": "Listamembros.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/listamembros/:_id",
+      "handler": "Listamembros.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/listamembros/:_id",
+      "handler": "Listamembros.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/torcedors",
+      "handler": "Torcedor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/torcedors/count",
+      "handler": "Torcedor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/torcedors/:_id",
+      "handler": "Torcedor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/torcedors",
+      "handler": "Torcedor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/torcedors/:_id",
+      "handler": "Torcedor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/torcedors/:_id",
+      "handler": "Torcedor.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

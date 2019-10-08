@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "time",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "UF": {
+      "default": "",
+      "maxLength": 2,
+      "minLength": 2,
+      "type": "string",
+      "required": true
+    }
+  }
+}

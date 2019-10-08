@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "torcedor",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "Sobrenome": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "default": "",
+      "unique": true,
+      "type": "email",
+      "required": true
+    },
+    "Senha": {
+      "default": "",
+      "type": "password",
+      "required": true
+    },
+    "Telefone": {
+      "default": "",
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "infotorcedor": {
+      "model": "infotorcedor",
+      "via": "torcedor"
+    }
+  }
+}

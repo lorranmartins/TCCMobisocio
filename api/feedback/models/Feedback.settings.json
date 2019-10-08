@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "feedback",
+  "info": {
+    "name": "feedback",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Avaliacao": {
+      "default": "",
+      "max": 5,
+      "type": "float"
+    },
+    "Comentario": {
+      "default": "",
+      "type": "text"
+    },
+    "RecebeFeedback": {
+      "model": "torcedor"
+    },
+    "DeuFeedback": {
+      "model": "torcedor"
+    }
+  }
+}

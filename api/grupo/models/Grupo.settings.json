@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "grupo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Nome": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "Descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "NumMembros": {
+      "default": "",
+      "max": 25,
+      "type": "integer"
+    },
+    "Lider": {
+      "model": "torcedor"
+    }
+  }
+}

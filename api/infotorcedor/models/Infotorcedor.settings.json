@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "infotorcedor",
+  "info": {
+    "name": "infotorcedor",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Socio": {
+      "default": false,
+      "type": "boolean",
+      "required": true
+    },
+    "Modalidade": {
+      "default": "",
+      "type": "string"
+    },
+    "time": {
+      "model": "time"
+    },
+    "torcedor": {
+      "model": "torcedor",
+      "via": "infotorcedor"
+    }
+  }
+}

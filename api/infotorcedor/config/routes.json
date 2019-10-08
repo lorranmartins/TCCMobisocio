@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/infotorcedors",
+      "handler": "Infotorcedor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/infotorcedors/count",
+      "handler": "Infotorcedor.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/infotorcedors/:_id",
+      "handler": "Infotorcedor.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/infotorcedors",
+      "handler": "Infotorcedor.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/infotorcedors/:_id",
+      "handler": "Infotorcedor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/infotorcedors/:_id",
+      "handler": "Infotorcedor.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
